@@ -1,1 +1,5 @@
+# Ignore temporary pyc compiled files
 *.pyc
+
+# Ignore intellij IDE settings
+.idea/

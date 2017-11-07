@@ -5,6 +5,7 @@ from flask import Flask
 # This defines a Flask application
 app = Flask(__name__)
 
+
 # Magical annotations define URL routing via the Flask application
 @app.route('/')
 def hello():

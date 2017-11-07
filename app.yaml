@@ -9,6 +9,6 @@ env: flex
 # The Flask WSGI application is in a variable called 'app'
 entrypoint: gunicorn -b :$PORT main:app
 
-# Python 3 is a little shinier, but more libs are available for Python 2
+# Python 3 is the future!
 runtime_config:
-  python_version: 2
+  python_version: 3
